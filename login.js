@@ -1,7 +1,7 @@
 const loginUrl = 'https://codeguru.isaac0yen.com/api/users/login';
 const apiKey = 'loginnewuser';
 
-const submitNewUser =() =>{
+const loginUser =() =>{
     const email = document.getElementById('email').value
     const password = document.getElementById('password').value
 
